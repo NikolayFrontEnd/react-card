@@ -1,0 +1,119 @@
+.block{
+  font-size: 19px;
+margin:60px;
+display:block;
+width:350px;
+height:690px;
+border:solid 2px;
+box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.5); 
+border-radius: 10px;
+}
+.nameBlock{
+  font-weight: bold;
+}
+.block:hover{
+    box-shadow:
+    1px 1px rgb(11, 11, 58),
+    2px 2px rgb(11, 11, 58),
+    3px 3px rgb(11, 11, 58),
+    4px 4px rgb(11, 11, 58),
+    5px 5px rgb(11, 11, 58),
+    6px 6px rgb(11, 11, 58),
+    7px 7px rgb(11, 11, 58);
+  -webkit-transform: translateX(-7px);
+  transform: translateX(-7px);
+  transition:1s;
+}
+.photo{
+  border-radius: 10px;
+  width:350px;
+  height: 350px;
+}
+.btnBlock{
+  display:flex;
+  padding:20px;
+}
+.btn{
+  
+margin-right:15px;
+display: inline-block;
+border: none;
+border-radius: 30px;
+background-color: #FF5733; /* Красный цвет */
+color: white;
+font-size: 14px;
+cursor: pointer;
+transition: background-color 0.3s ease; /* Анимация при наведении */
+}
+.btn:hover{
+  background-color: #fa8f74; /* Новый цвет при наведении */
+}
+.btn2{
+  display: inline-block;
+border: none;
+border-radius: 30px;
+background-color: #FF5733; /* Красный цвет */
+color: white;
+font-size: 14px;
+cursor: pointer;
+transition: background-color 0.3s ease; /* Анимация при наведении */
+
+}
+.btn2:hover{
+  background-color: #fa8f74; /* Новый цвет при наведении */
+}
+.contein{
+  margin-top: 15px;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.words{
+  padding-left: 10px;
+
+}
+.btn3{
+  margin-left: 28px;
+  margin-right:15px;
+  border: none;
+  background:rgb(37, 85, 216);
+  color: #f2f2f2;
+  padding: 8px;
+  font-size: 14px;
+cursor: pointer;
+  border-radius: 5px;
+  position: relative;
+  box-sizing: border-box;
+  transition: all 500ms ease; 
+
+}
+.btn3:hover{
+  background: rgba(0,0,0,0);
+  color: #3a7999;
+  box-shadow: inset 0 0 0 3px rgb(37, 85, 216);
+}
+.btn4{
+  border: none;
+  background: rgb(37, 85, 216);
+  color: #f2f2f2;
+  padding: 8px;
+  font-size: 14px;
+cursor: pointer;
+  border-radius: 5px;
+  position: relative;
+  box-sizing: border-box;
+  transition: all 500ms ease; 
+
+}
+.btn4:hover{
+  background: rgba(0,0,0,0);
+  color: rgb(37, 85, 216);
+  box-shadow: inset 0 0 0 3px rgb(37, 85, 216);
+}
+
+@media(max-width:426px){
+  .block{
+    margin:35px;
+  }
+}

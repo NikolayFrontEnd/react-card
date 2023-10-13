@@ -1,0 +1,79 @@
+.button-container2 {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  .my-button2 {
+    margin-bottom: 30px;
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  .my-button2:hover {
+    background-color: black;
+    animation: shake 0.5s ease-in-out infinite; /* Добавляем анимацию shake */
+   
+  }
+  
+  @keyframes shake {
+    0%, 100% {
+      transform: translateX(0);
+    }
+    25% {
+      transform: translateX(5px); /* Шевеление вправо */
+    }
+    50% {
+      transform: translateX(-5px); /* Шевеление влево */
+    }
+    75% {
+      transform: translateX(5px); /* Шевеление вправо */
+    }
+  }
+
+  .Tword{
+    display:flex;
+  }
+  
+  
+  .sFont{
+    margin-left: 50px;
+    margin-right: 10px;
+  }
+  .Tword2{
+    font-size: 18px;
+    margin-top: 35px;
+
+}
+/* Стиль для центрирования контейнера */
+.center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+  }
+  
+  /* Стиль для центрирования текста внутри контейнера */
+  .center-text {
+    text-align: center;
+  }
+  .center-container2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 70px;
+  }
+  .tablica{
+    margin-bottom: 20px;
+  }
+
+  .Tword2{
+    display: flex;
+  }

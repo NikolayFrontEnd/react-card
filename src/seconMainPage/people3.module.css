@@ -1,0 +1,86 @@
+.btn3{
+    margin-right:15px;
+    border: none;
+    background:rgb(37, 85, 216);
+	color: #f2f2f2;
+	padding: 8px;
+	font-size: 14px;
+	border-radius: 30px;
+	position: relative;
+	box-sizing: border-box;
+	transition: all 500ms ease; 
+}
+.btn3:before {
+	content:'';
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 0px;
+	height: 35px;
+	background: rgba(255,255,255,0.3);
+	border-radius: 30px;
+	transition: all 2s ease;
+} 
+.btn3:hover:before{
+    width: 100%;
+}
+.btn4{
+    
+    border: none;
+    background:rgb(37, 85, 216);
+	color: #f2f2f2;
+	padding: 8px;
+	font-size: 14px;
+	border-radius: 30px;
+	position: relative;
+	box-sizing: border-box;
+	transition: all 500ms ease; 
+}
+.btn4:before {
+	content:'';
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 0px;
+	height: 35px;
+	background: rgba(255,255,255,0.3);
+	border-radius: 30px;
+	transition: all 2s ease;
+} 
+.btn4:hover:before{
+    width: 100%;
+}
+.btn5{
+	border: 3px solid rgb(37, 85, 216);
+	margin-right:15px;
+	display: inline-block;
+	border-radius: 30px;
+	background-color: rgb(37, 85, 216); /* Красный цвет */
+	color: white;
+	font-size: 14px;
+	cursor: pointer;
+	transition: all 500ms ease; 
+}
+
+.btn5:hover{
+	border: 3px dotted rgb(37, 85, 216);
+	color:rgb(37, 85, 216);
+	background: rgba(0,0,0,0);
+}
+.btn6{
+	border: 3px solid rgb(37, 85, 216);
+
+	display: inline-block;
+	border-radius: 30px;
+	background-color: rgb(37, 85, 216); /* Красный цвет */
+	color: white;
+	font-size: 14px;
+	cursor: pointer;
+	transition: all 500ms ease; 
+}
+
+.btn6:hover{
+	border: 3px dotted rgb(37, 85, 216);
+	color:rgb(37, 85, 216);
+	background: rgba(0,0,0,0);
+}
